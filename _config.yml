@@ -25,8 +25,8 @@ description              : "A simple movie blog"
 url                      : "https://pmgolait.github.io"
 baseurl                  : "/potato-perspective"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "https://r4.wallpaperflare.com/wallpaper/589/956/907/5c1f91ab77ee7-wallpaper-28b62d28f0903c78a0ac416ee8a2d42a.jpg"
-logo                     : "/assets/header.jpg"
+teaser                   : "/assets/header.jpg"
+logo                     : 
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
