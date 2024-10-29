@@ -17,13 +17,13 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Potato Perspective"
-title_separator          : "-"
+title                    : "Frame of Reference"
+title_separator          : 
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Pratyush Golait"
 description              : "A simple movie blog"
 url                      : "https://pmgolait.github.io"
-baseurl                  : "/potato-perspective"
+baseurl                  : "/frame-of-reference"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/header.jpg"
 logo                     : 
