@@ -159,10 +159,11 @@ footer:
 
 
 # Reading Files
+include: ["_posts"]
+
 include:
   - .htaccess
   - _pages
-  - _posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
