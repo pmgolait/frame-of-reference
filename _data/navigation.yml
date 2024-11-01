@@ -3,8 +3,8 @@ main:
   - title: "about"
     url:  "/about"
   - title: "posts"
-    url: /year-archive/
+    url: "/year-archive/"
   - title: "stuff I've watched"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+    url: "/stuff"
   - title: "suggest something"
-    url: https://forms.gle/QSxRJVREFRBf6qgu6
+    url: "https://forms.gle/QSxRJVREFRBf6qgu6"
