@@ -116,7 +116,7 @@ author:
   name             : "Pratyush Golait"
   avatar           : "assets/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   song             : "assets/song.mp3"
-  bio              : # "\n" # "hi"
+  bio              : "TarantinoVerse ❤️" # "hi" # "\n" # "hi"
   location         : # "sjp/bom"
   email            : "pratyushmgolait@gmail.com"
   links:
