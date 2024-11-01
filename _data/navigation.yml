@@ -8,3 +8,4 @@ main:
     url: "/stuff"
   - title: "suggest something"
     url: "https://forms.gle/QSxRJVREFRBf6qgu6"
+    target: "_blank"
