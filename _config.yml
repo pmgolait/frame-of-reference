@@ -67,7 +67,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
+  hide                   : true # true, false (default)
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
 search_provider          : lunr # lunr (default), algolia, google
@@ -116,7 +116,7 @@ author:
   name             : "Pratyush Golait"
   avatar           : "assets/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   song             : "assets/song.mp3"
-  bio              : "TarantinoVerse ❤️" # "hi" # "\n" # "hi"
+  bio              : "TarantinoVerse 🎬" # "hi" # "\n" # "hi"
   location         : # "sjp/bom"
   email            : "pratyushmgolait@gmail.com"
   links:
