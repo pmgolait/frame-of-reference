@@ -3,13 +3,58 @@
 
 <div itemscope itemtype="https://schema.org/Person" class="h-card">
 
-  {% if author.avatar %}
-    <div class="author__avatar">
-      <a href="{{ author.home | default: '/' | absolute_url }}">
-        <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}" itemprop="image" class="u-photo">
-      </a>
-    </div>
-  {% endif %}
+<!-- Audio option -->
+<audio id="audio-player">
+  <source src="{{ author.song | relative_url }}" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<!-- Author avatar with rotation animation -->
+<div class="author__avatar" style="cursor: pointer;">
+  <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}" itemprop="image" class="u-photo">
+</div>
+
+<style>
+  .author__avatar .u-photo {
+    border-radius: 50%; /* Ensure the avatar is round */
+    animation: rotate-avatar 3s linear infinite; /* Set rotation animation */
+    animation-play-state: paused; /* Start in paused state */
+  }
+  
+  @keyframes rotate-avatar {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+</style>
+
+<script>
+  const audioPlayer = document.getElementById("audio-player");
+  const authorAvatar = document.querySelector(".author__avatar");
+  const avatarImage = authorAvatar.querySelector(".u-photo");
+  let isPlaying = false;
+
+  authorAvatar.addEventListener("click", () => {
+    if (isPlaying) {
+      audioPlayer.pause();
+      avatarImage.style.animationPlayState = "paused"; // Pause the rotation
+      isPlaying = false;
+    } else {
+      audioPlayer.play().then(() => {
+        avatarImage.style.animationPlayState = "running"; // Start the rotation
+        isPlaying = true;
+      }).catch(error => console.error("Error playing audio:", error));
+    }
+  });
+
+  audioPlayer.addEventListener("ended", () => {
+    avatarImage.style.animationPlayState = "paused"; // Stop the rotation
+    isPlaying = false;
+  });
+</script>
 
   <div class="author__content">
     <h3 class="author__name p-name" itemprop="name">

@@ -114,26 +114,25 @@ analytics:
 # Site Author
 author:
   name             : "Pratyush Golait"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "hi!"
-  location         : 
-  email            :
+  avatar           : "assets/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  song             : "assets/song.mp3"
+  bio              : # "\n" # "hi"
+  location         : # "sjp/bom"
+  email            : "pratyushmgolait@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:pratyushmgolait@gmail.com"
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
     #   # url: "https://your-website.com"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/pratyushgolait"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/pratyushgolait"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/pmgolait"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/pratyushgolait"
+
 
 # Site Footer
 footer:

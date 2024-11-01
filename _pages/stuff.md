@@ -4,7 +4,7 @@ title: "stuff I've watched"
 excerpt: "List of movies/series I've watched"
 last_modified_at: 2024-11-01
 toc: true
-
+toc_sticky: true
 # published: true
 ---
 
