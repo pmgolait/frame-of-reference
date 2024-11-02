@@ -10,6 +10,7 @@ category:
     - hollywood
     - Psychological thriller
 image: /assets/shutter-island.jpg
+excerpt: Some reasons why Shutter Island is my favorite movie + some research-worthy topics
 ---
 ![Shutter Island]({{page.image | relative_url }})
 
