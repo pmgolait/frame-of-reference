@@ -52,8 +52,7 @@ toc_sticky: true
 - Krrish 3 (2013)  
 - Dhoom 3 (2013)  
 - 24 (2013)  
-- <span style="background-color: #f21368">Ugly</span> (2013)  
-- Shaitaan (2013)  
+- <span style="background-color: #f21368">Ugly</span> (2013)   
 - Sahasam (2013)  
 - Go Goa Gone (2013)  
 - PK (2014)  
@@ -122,9 +121,11 @@ toc_sticky: true
 - 12th Fail (2023)  
 - Lust Stories 2 (2023)  
 - Chor Nikal Ke Bhaga (2023)  
+- Sector 36 (2024)
 - Stree 2 (2024)  
 - Munjya (2024) 
-
+- Shaitaan (2024) 
+- Chhaava (2025)
 ----
 
 ### *TV/Web Series*
@@ -453,6 +454,7 @@ toc_sticky: true
 - Criminal Minds (2005)
 - <span style="background-color: #f21368">Dexter</span> (2006)
 - The Big Bang Theory (2007)
+- <span style="background-color: #f21368">Breaking Bad</span> (2008)
 - Parks and Recreation (2009)
 - <span style="background-color: #f21368">Modern Family</span> (2009)
 - <span style="background-color: #f21368">Sherlock</span> (2010)
